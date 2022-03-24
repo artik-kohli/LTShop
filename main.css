@@ -1,0 +1,129 @@
+:root {
+    --page-color: rgb(243, 210, 240);
+}
+html {
+    font-size: 22px;
+    background-color: var(--page-color, rgb(243, 210, 240));
+    font-family: ubuntu, sans-serif;
+    color: rgb(2, 18, 105);
+}
+body {
+    padding: 50px 100px 0px 100px;
+}
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+a:hover {
+    color: rgb(27, 27, 189);
+}
+abbr {
+    text-decoration: none;
+}
+abbr:hover {
+    color: rgb(27, 27, 189);
+}
+#menu {
+    position: relative;
+    border-style: solid;
+    height: 470px;
+    width: 390px;
+    border-width: 2px;
+    border-color: rgba(127, 175, 223, 0.397);
+    border-radius: 10%;
+    background-color: rgba(119, 243, 252, 0.63);
+    padding: 5px 13px 15px 15px;
+    box-shadow: 5px 7px 15px grey, -3px 0px 10px grey;
+}
+table {
+    margin: auto;
+}
+th, td {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(127, 175, 223);
+    margin: 3px 3px 3px 3px;
+    padding: 10px;
+    border-radius: 7px;
+}
+td {
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+th:hover, td:hover {
+    transform: scale(1.01);
+}
+
+#menu h2{
+    position: relative;
+    left: 123px
+}
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(2, 18, 105);
+    color: var(--page-color, rgb(243, 210, 240));;
+    list-style: none;
+    padding: 0px 12px 0px 0px;
+    z-index: 27;
+}
+
+.box {
+    /* position: relative; */
+    display: inline;
+    text-align: center;
+    border-color: var(--page-color, rgb(243, 210, 240));
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 7px 5px 7px;
+    margin: 4px 2px 4px 2px;
+    text-decoration: none;
+    list-style: none;
+    height: fit-content;
+    width: fit-content;
+}
+#navbar a {
+    text-decoration: none;
+    color: var(--page-color, rgb(243, 210, 240));
+}
+#navbar ul {
+    position: relative;
+    /* left: 700px; */
+    float: right;
+    display: inline;
+}
+#logo {
+    position: relative;
+    top: -8px;
+    left: 80px;
+    font-family: monospace;
+    font-size: 27px;
+    font-weight: bolder;
+}
+#logo img {
+    position: relative;
+    top: 8px;
+    transform: rotate(-35deg);
+    right: 5px;
+}
+.c-box {
+    /* position: relative; */
+    display: inline;
+    text-align: center;
+    border-color: var(--page-color, rgb(243, 210, 240));
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 0px 9px -7px;
+    margin: 4px 2px 4px 2px;
+}
+#logo:hover {
+    background-color: rgb(11, 11, 124);
+}
+#navbar li:hover {
+    background-color: rgb(11, 11, 124);
+}
